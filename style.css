@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+ /* tipografia 'Jersey 25', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+/* tipografia "PT Sans", sans-serif; */
+
+/* #262626, Color negro */
+/* #363636 color gris*/
+/* #d0d0d0 color gris mas clarito */
+/* #3e2314, Marron oscuro */
+/* #8e684f Marron mas claro */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient(#262626, #363636, #d0d0d0);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1 {
+  background: linear-gradient(#3e2314, #8e684f);
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Jersey 25', sans-serif;
+  font-size: 55px;
+  font-weight: 900px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+}
+
+legend {
+  text-align: right;
+  color: white;
+  background: linear-gradient(#3e2314, #8e684f);
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.cnd {
+  color: black;
+  margin-top: 30px;
+}
+.nov {
+  color: white;
+  margin-top: 5px;
+}
+.campo {
+  text-align: left;
+  font-weight: bolder;
+  color: white;
+}
+fieldset {
+  text-align: center;
+  border: solid 1px #8e684f;
+  background-image: url(/public/img_gym/gymRetro.jpg);
+  background-size: 300px;
+}
+
+.mb-10 {
+  color: white;
+  font-weight: bolder;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.datos-paias {
+  width: 600px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #8e684f;
+  text-align: center;
+}
+.datos-p {
+  width: 600px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #8e684f;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  background-color: #d0d0d0;
+}
+
+.desc {
+  width: 600px;
+  border-radius: 3px;
+  border: solid 1px #8e684f;
+  text-align: center;
+  background-color: #d0d0d0;
+  color: black;
+  font-size: 18px;
+}
+
+.datos-c {
+  width: 600px;
+  height: 25px;
+  border-radius: 3px;
+  text-align: center;
+  border: solid 1px #8e684f;
+  background-color: #d0d0d0;
+  color: black;
+  font-size: 18px;
+}
+.p-1 {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+p {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mt-15 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.cnd {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.nov {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.boton1 {
+  background-color: #d1b395;
+  color: white;
+  border: solid 1px #d6e2de;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+}
+.boton2 {
+  background-color: #d1b395;
+  color: white;
+  border: solid 1px #d6e2de;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+}
+
+.p-2 {
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+option {
+  font-size: 12px;
+}
+.division {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #d6e2de;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.ai {
+  color: white;
+  font-weight: bolder;
+}
+
+input[name='nombre']:focus {
+  background-color: #d1b395;
+}
+
+input[name='apellido']:focus {
+  background-color: #d1b395;
+}
+input[name='documento']:focus {
+  background-color: #d1b395;
+}
+input[name='telefono']:focus {
+  background-color: #d1b395;
+}
+input[name='mail']:focus {
+  background-color: #d1b395;
+}
+textarea[name='descripcion']:focus {
+  background-color: #d1b395;
+}
+button:focus {
+  background-color: #3e2314;
+}
